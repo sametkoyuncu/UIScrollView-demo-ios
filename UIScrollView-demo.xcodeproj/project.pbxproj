@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		F1DFE83D28DECC2900AE76FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DFE83C28DECC2900AE76FB /* AppDelegate.swift */; };
 		F1DFE83F28DECC2900AE76FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DFE83E28DECC2900AE76FB /* SceneDelegate.swift */; };
-		F1DFE84128DECC2900AE76FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DFE84028DECC2900AE76FB /* ViewController.swift */; };
+		F1DFE84128DECC2900AE76FB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DFE84028DECC2900AE76FB /* HomeViewController.swift */; };
 		F1DFE84428DECC2900AE76FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1DFE84228DECC2900AE76FB /* Main.storyboard */; };
 		F1DFE84628DECC2A00AE76FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1DFE84528DECC2A00AE76FB /* Assets.xcassets */; };
 		F1DFE84928DECC2A00AE76FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1DFE84728DECC2A00AE76FB /* LaunchScreen.storyboard */; };
+		F1DFE85328DECD2100AE76FB /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DFE85228DECD2100AE76FB /* DetailsViewController.swift */; };
+		F1DFE85528DECDF200AE76FB /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DFE85428DECDF200AE76FB /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F1DFE83928DECC2900AE76FB /* UIScrollView-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIScrollView-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1DFE83C28DECC2900AE76FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1DFE83E28DECC2900AE76FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F1DFE84028DECC2900AE76FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1DFE84028DECC2900AE76FB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F1DFE84328DECC2900AE76FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F1DFE84528DECC2A00AE76FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1DFE84828DECC2A00AE76FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1DFE84A28DECC2A00AE76FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1DFE85228DECD2100AE76FB /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		F1DFE85428DECDF200AE76FB /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				F1DFE83C28DECC2900AE76FB /* AppDelegate.swift */,
 				F1DFE83E28DECC2900AE76FB /* SceneDelegate.swift */,
-				F1DFE84028DECC2900AE76FB /* ViewController.swift */,
+				F1DFE84028DECC2900AE76FB /* HomeViewController.swift */,
+				F1DFE85228DECD2100AE76FB /* DetailsViewController.swift */,
 				F1DFE84228DECC2900AE76FB /* Main.storyboard */,
 				F1DFE84528DECC2A00AE76FB /* Assets.xcassets */,
 				F1DFE84728DECC2A00AE76FB /* LaunchScreen.storyboard */,
 				F1DFE84A28DECC2A00AE76FB /* Info.plist */,
+				F1DFE85428DECDF200AE76FB /* Data.swift */,
 			);
 			path = "UIScrollView-demo";
 			sourceTree = "<group>";
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1DFE84128DECC2900AE76FB /* ViewController.swift in Sources */,
+				F1DFE84128DECC2900AE76FB /* HomeViewController.swift in Sources */,
+				F1DFE85528DECDF200AE76FB /* Data.swift in Sources */,
 				F1DFE83D28DECC2900AE76FB /* AppDelegate.swift in Sources */,
 				F1DFE83F28DECC2900AE76FB /* SceneDelegate.swift in Sources */,
+				F1DFE85328DECD2100AE76FB /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
