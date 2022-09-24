@@ -20,12 +20,15 @@ class HomeViewController: UIViewController {
 
 extension HomeViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        // detay ekranının bir instance'ını oluştur
         let destinationVC = storyboard?.instantiateViewController(withIdentifier: "DetailsPageVC") as! DetailsViewController
-        
+        // seçili olan haberi al
+        let selectedNews = DummyData.allNews[indexPath.row]
+        // detay ekranındaki selectedNews'e, yukarıdaki selectedNews'i set'le
+        destinationVC.selectedNews = selectedNews
+        // detay ekranına git
         navigationController?.pushViewController(destinationVC, animated: true)
-        
     }
-    
 }
 
 extension HomeViewController: UITableViewDataSource {
